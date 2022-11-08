@@ -1,0 +1,83 @@
+<body onload="NextQuestion(0)">
+  <main>
+    
+<!-- end of modal of quiz details-->
+
+      <div class="game-quiz-container">
+
+          <div class="game-details-container">
+         
+              <h3> Question : <span id="question-number"></span> / 10</h3>
+              <h1>Money Earned: <span id="player-score"></span></h1>
+          </div>
+
+          <div class="game-question-container">
+              <h1 id="display-question"></h1>
+          </div>
+
+          <div class="game-options-container">
+
+             <div class="modal-container" id="option-modal">
+
+                  <div class="modal-content-container">
+                       <h3>Please Choose An Answer</h3>
+
+                       <div class="modal-button-container">
+                      </div>
+                  </div>
+
+             </div>
+
+             <span>
+                  <input type="radio" id="option-one" name="option" class="radio" value="optionA" />
+                  a.
+                  <label for="option-one" class="option" id="option-one-label"></label>
+             </span>
+<br>
+              <span>
+                  <input type="radio" id="option-two" name="option" class="radio" value="optionB" />
+                  b.
+                  <label for="option-two" class="option" id="option-two-label"></label>
+              </span>
+<br>
+              <span>
+                  <input type="radio" id="option-three" name="option" class="radio" value="optionC" />
+                  c.
+                  <label for="option-three" class="option" id="option-three-label"></label>
+              </span>
+
+<br>
+              <span>
+                  <input type="radio" id="option-four" name="option" class="radio" value="optionD" />
+                  d.
+                  <label for="option-four" class="option" id="option-four-label"></label>
+              </span>
+<br>
+<p>
+          </div>
+
+          <div class="next-button-container">
+              <button onClick="handleNextQuestion()">Next Question></button>
+            </div>
+
+           <p><div class="answer">
+              <button id="hint1" onClick="hint1()">Cheat</button></div>
+          </p>
+          </div>
+
+          <p><div class="answer">
+              <button id="hint2" onClick="hint2()">50% of Answer</button>
+          </p>
+          </div>
+
+          <p><div class="answer">
+                <button id="hint3" onClick="hint3()">25% of Answer</button>
+          </p> 
+        </div>
+
+
+      </div>
+    </p>
+  </main>
+  <script src="project3.js"></script>
+</body>

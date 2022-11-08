@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding:0;
+}
+html{
+    color: #555;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+.header{
+
+}
+.row{
+
+}
+.logo{
+
+}
+nav{
+    justify-content:space-between;
+    align-items: center;
+    padding:0 20px;
+
+}
+ul{
+
+}
+
+li a{
+
+}
+li a:hover{
+
+}
+.hero-text-box{
+text-decoration: none;
+}
+.hero.text{
+text-decoration: none;
+}
+.btn{
+
+}
+.btn:hover,btn:active{
+
+}
+.btn-full{
+
+}
+.btn-ghost{
+
+}
+
+.btn-full:hover, .btn-full:active{
+
+}
+.btn-ghost:hover, .btn-ghost:active{

@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+padding: 0px;
+background-repeat:repeat;
+background-size:100%;
+background-position:center;
+text-align: center;
+
+}
+.menu{
+    text-align:auto;
+    height:250px;
+    background-color:rgb(37, 243, 174);
+    background-repeat: no-repeat;
+    background-position: center;background-size:cover;
+    font-family:'Cambria';
+    font-size: larger;
+    font-style:unset;text-underline-position: below;
+}
+.line1{
+text-align: center;
+background-color:grey ;
+height: 200px;
+background-image:url(/pics/images.jpg);
+background-position: center;background-size:contain ;
+
+}
+.page{
+    height: 900;
+    margin:auto;
+    overflow:hidden;
+    background-color:coral;
+    text-align: center;
+}
+
+.column1{
+    margin:10% 3%;
+    display:inline-block;
+    width: 15%;
+    height: 200px;
+    background-color:blueviolet;
+    background-image: url(/pics/f23cb7c1c3bc638ac493c0330bf6fadc--alphabet-soup-design-projects.jpg);
+    background-position: center;background-size:contain ;
+}
+    .column2{
+        margin:10% 3%;
+        display:inline-block;
+        width: 15%;
+        height: 200px;
+        background-color:blueviolet; 
+        background-image: url(/pics/d64d142c1da50c47d3c76d0364bb6d38--silhouette-design-silhouette-cameo.jpg);
+        background-position: center;background-size:contain ;
+    }
+        .column3{
+            margin:10% 3%;
+            display:inline-block;
+            width: 15%;
+            height: 200px;
+            background-color:blueviolet;
+            background-image: url(/pics/Days-of-Type-creative-typography-design-example.jpg);
+            background-position: center;background-size:contain ;
+        } 
+
+.content1{
+    float:left;
+    width: 759px;
+    height:300px;
+    background-color:grey;
+    background-image:url(/pics/big-typography-design-59.jpg);
+    background-repeat:repeat-x repeat-y;
+    background-position: center;background-size: cover;
+
+}
+.content2{
+
+    float:right;
+    width: 759px;
+    height:300px;
+    background-color:rgb(37, 243, 174);
+    
+}
+.footer{
+    text-align: center;
+    height:150px;
+    background-color: coral;
+}

@@ -1,0 +1,20 @@
+
+#navigation-panel {
+    background-color: rgb(255, 255, 255);
+    float : left;
+    width: 250px;
+    font-family: sans-serif;
+}
+
+#main-content {
+    background-color: rgb(255, 255, 255);
+    margin-left: 275px;
+    font-family: sans-serif;
+    
+}
+
+.custom-h1 {
+    background-color: black;
+    color : white;
+    font-family: sans-serif;
+}

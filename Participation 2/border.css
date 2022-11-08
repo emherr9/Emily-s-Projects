@@ -1,0 +1,29 @@
+#all{
+    height: 50px;
+    width: 300px;
+    background-color: rgb(36, 169, 85);
+    text-align: center;
+    border: 5px;;
+    border-color: black;
+    border-style:inset;
+ }
+ 
+ #bottom{
+     border-bottom-style:solid;
+     border-bottom-color: rgb(235, 13, 13);
+     height: 20px;
+     width:180px;
+ }
+ 
+ #round{
+     border: 5px rgb(205, 138, 2);
+    border-radius: 5px;
+    border-style: solid;
+    
+ }
+ 
+ #left{
+     border-left-style:solid;
+     border-left-color:blue;
+     background-color: rgb(134, 110, 206);
+ }

@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding: 35px;
+    box-sizing:border-box;
+}
+    
+.body{
+border: dotted;color: azure;width: 5;
+border-image: auto;
+padding: 20px;
+background-repeat:repeat;
+background-size:100%;
+background-position:center;
+text-align: center;
+
+}
+.columna{
+    border-radius: 300px;
+    border-style: dotted;color: azure;
+    margin:2% 2%;
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+    background-color:rgba(240, 159, 60, 0.755);
+    background-position: center;background-size:contain ;
+
+}
+.columnb{
+    border-radius: 300px;
+    border-style: dotted;color: azure;
+    margin:2% 2%;
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+    background-color:rgba(240, 159, 60, 0.755);
+    background-position: center;background-size:contain ;
+}
+.columnc{
+    border-radius: 300px;
+    border-style: dotted;color: azure;
+    margin:2% 2%;
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+    background-color:rgba(240, 159, 60, 0.755);
+    background-position: center;background-size:contain ;
+}
+.columnd{
+    border-radius: 300px;
+    border-style: dotted;color: azure;
+    margin:2% 2%;
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+    background-color:rgba(240, 159, 60, 0.755);
+    background-position: center;background-size:contain ;
+}
+.columne{
+    border-radius: 300px;
+    border-style: dotted;color: azure;
+    margin:2% 2%;
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+    background-color:rgba(240, 159, 60, 0.755);
+    background-position: center;background-size:contain ;
+
+}
+
+.line1{
+    background-image:url("/pics/hello.gif");
+    height: 180px;
+    margin-top: 100px;
+    background-position: center;background-size:contain;
+    background-repeat: no-repeat;
+    border-style: dotted 5px;
+    border-radius:15px; ;
+}
+.line2{
+    text-align: center;
+    background-color:rgba(128, 128, 128, 0.74) ;
+    height: 195px;
+    margin-top: 200px;
+    border-style:double;color: azure; 
+    border-width: 5px;
+    background-position: center;background-size:contain;
+}
+.column1{
+    text-align: center;
+    margin:10% 3%;
+    display:inline-block;
+    width: 20%;
+    height: 175px;
+    background-color:rgba(7, 189, 195, 0.86);
+    border-style: double;color: azure;
+    border-width: 4px;
+    background-position: center;background-size:contain ;
+    margin-top: 250px;
+}
+.column2{
+    text-align: center;
+        margin:10% 3%;
+        display:inline-block;
+        width: 20%;
+        height: 175px;
+        background-color:rgba(7, 189, 195, 0.86);
+        border-style: double;color: azure;
+        border-width: 4px;
+        background-position: center;background-size:contain ;
+        margin-top: 250px;
+    }
+ .column3{
+        text-align: center;
+        margin:10% 3%;
+        display:inline-block;
+        width: 20%;
+        height: 175px;
+        background-color:rgba(7, 189, 195, 0.86);
+        border-style: double;color: azure;
+        border-width: 4px;
+        background-position: center;background-size:contain ;
+        margin-top: 250px;
+        } 
+
+.content1{
+    margin-left: 180px;
+    float:left;
+    width: 350px;
+    height:350px;
+    background-color:rgba(128, 128, 128, 0.705);
+    border-radius: 500px;
+    border-style: dotted;color: azure;
+}
+.content2{
+    margin-right: 180px;
+    float:right;
+    width: 350px;
+
+    height:350px;
+    background-color:rgba(128, 128, 128, 0.766);
+    border-radius: 500px;
+    border-style: dotted;color: azure; width: 4;
+    
+}
+.footer{
+    background-color:rgba(240, 159, 60, 0.755); 
+    border-radius: 15px;
+    width: 700px;
+    color:rgb(25, 24, 22);
+    margin:auto;
+    clear: both;
+    text-align: center;
+    font-style:italic;
+    height:30px;
+    border-color: azure;
+    border-style: dotted;
+    font-size: large;
+   
+}

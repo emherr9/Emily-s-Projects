@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding: 35px;;
+    box-sizing:border-box;
+}
+    
+body{
+background-attachment: fixed;
+border-style: dotted;color: azure;width: 5;
+padding: 20px;
+background-repeat:repeat;
+background-size:100%;
+background-position:center;
+text-align: center;
+}
+.banner{
+    height:400px;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    background-color:rgba(226, 43, 198, 0.633);
+    font-family:'Haettenschweiler';
+}
+button{
+    border-radius: 300px;
+    border-style: dotted; border-color: azure; border-width: 4px;
+    background-color: aquamarine;
+    margin-left: 650px;
+    margin-top:-5px;
+    color: rgb(244, 133, 35);
+    
+
+}
+.line1{
+text-align: center;padding: 0;
+background-color: rgba(240, 159, 60, 0.755);
+background-position:center;background-size:contain;
+height: 800px;
+width: 100%;
+margin-bottom: 10px;
+padding: 0;
+margin:0;
+}
+.section{
+    font-family:'Haettenschweiler';
+    font-style:white;
+    font-size: larger;
+}
+.tti{
+    width:300px;
+    height:300px;
+    border:hidden;
+    border-radius: 300px;
+    position: relative; top: -45px; 
+}
+.columna{
+    display:inline-block;
+    background-position: center;background-size:contain;
+    float:left;
+
+}
+
+.columnb{
+    display:inline-block;
+    background-position: center;background-size:contain;
+    margin-right: 425px;
+    margin-left: 90px;
+    margin-top:-20px;
+}
+.columnc{
+    display:inline-block;
+    float: right;
+    margin-top: -690px;
+    background-position: center;background-size:contain ;
+}
+
+.footer{
+    margin:0;
+    padding: 0;
+    height:150px;
+    width:100%;
+    background-color:rgba(226, 43, 198, 0.633);
+    font-family:'Haettenschweiler';
+    font-size: medium;
+}

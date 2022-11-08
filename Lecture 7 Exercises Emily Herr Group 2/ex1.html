@@ -1,0 +1,43 @@
+<html>
+
+<head>
+
+    <title>Exercise1</title>
+</head>
+
+<body>
+<h1 id="h1">Multiplication Table</h1>
+
+<input type="number" id="input1">
+<button value="generate" onclick="return_Numbers_in_html_console(),mult_table()">generate table</button>
+    <script>
+
+        function return_Numbers_in_html_console(){
+            const input_Value= document.getElementById("input1").value
+        }
+ 
+ function mult_table(){
+
+    for(let i=0; i<=10; i++){
+        const input_Value=document.getElementById("input1").value  
+        let result=i*input_Value
+
+        let print_format_console= document.createTextNode
+        (`${input1.value} * ${i} = ${result}`)
+
+        console.log(print_format_console)
+
+        const print_format_HTML= (`${input1.value} * ${i} = ${result}`)
+        document.body.appendChild(print_format_console)
+
+        const line_break= 
+        document.createElement("br")
+        document.body.appendChild(line_break)
+    }
+    
+ }
+ 
+   </script>
+    
+</body>
+</html>

@@ -1,0 +1,50 @@
+pre{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: smaller;
+}
+#signbutton{
+    border: 5px;
+    border-style: solid blue;
+    background-color: blue;
+    height: 40px;
+    width: 60px;
+    float: right;
+}
+
+.center{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 20%;
+}
+
+#search{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border: 5x;
+  border:solid rgb(241, 187, 86);
+  border-radius: 20px;
+  height: 40px;
+}
+
+#GS{
+  padding: 20px;
+  width: 60px;
+  background-color: rgb(192, 192, 171);
+}
+#IFL{
+  padding: 20px;
+  width: 60px;
+  background-color: rgb(192, 192, 171);
+}
+#pre{
+
+  float: left;
+
+}
+
+#mm{
+  text-align: left;
+}

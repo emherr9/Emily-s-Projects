@@ -1,0 +1,78 @@
+.card{
+    border:solid rgb(234, 136, 9);
+    border-style: outset;
+    border-radius:8px;
+    border-width: 5px;
+    margin:auto;
+    width:450px;
+    height:250px;
+    background-color:rgb(169, 139, 99);
+}
+.name{ 
+    font-family:'Franklin Gothic Medium';
+    text-align: center;
+    float:right;
+    margin-right:115px;
+    margin-top: 10px;
+    width: 180px;
+    background-color:rgb(155, 29, 29);
+    border-style: dotted;
+    border-color: rgb(212, 141, 17);;
+    
+}
+.img{
+    border:solid darkred;
+    border-style:dotted;
+    width: 100px;
+    height:100px;
+    border-radius:500px;
+    margin-left: 15px;
+    margin-bottom:50px;
+    margin-top: 15px;
+
+}
+.bio{
+   font-family:'Franklin Gothic Medium';
+   font-style: oblique;
+   float: center;
+   float:right;
+   text-align-last:50px ;
+   margin-right:30px;
+   margin-top: -120px;
+   
+   
+}
+.stats{
+    font-family:'Franklin Gothic Medium';
+    text-align: center;
+    float:right;
+    margin-right:30px;
+    margin-top: -85px;  
+    width: 270px;
+    background-color: rgb(167, 88, 176);
+    border-style: dotted;
+    border-color: darkred;
+}
+.quest{
+    font-family:'Franklin Gothic Medium';
+    text-align:center;
+    float:right;
+    margin-top:-15px;
+    margin-left:-10px;
+    width: 450px;
+    background-color: rgb(240, 150, 40);
+    border-style:dotted;
+    border-color: rgb(167, 88, 176);
+}
+.info{
+    font-family:'Franklin Gothic Medium';
+    font-style: oblique;
+    margin-left:80px;
+    margin-top: -50px;
+}
+.etc{
+    font-family:'Franklin Gothic Medium';
+    margin-left:110px;
+    margin-top: 80px;
+  
+}
